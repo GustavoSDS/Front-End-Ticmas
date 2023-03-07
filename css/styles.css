@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 15px "Tilt Neon", sans-serif;
+}
+
+.container {
+  width: 320px;
+  background: linear-gradient(#b0b5e9, white);
+  margin: auto;
+}
+@media (min-width: 321px) {
+  .container {
+    width: 360px;
+  }
+}
+@media (min-width: 361px) {
+  .container {
+    width: 375px;
+  }
+}
+@media (min-width: 376px) {
+  .container {
+    width: 393px;
+  }
+}
+@media (min-width: 394px) {
+  .container {
+    width: 414px;
+  }
+}
+@media (min-width: 415px) {
+  .container {
+    width: 428px;
+  }
+}
+.container .header {
+  height: 110px;
+  margin: 0 0 60px;
+  border-bottom: 1px solid gainsboro;
+  padding-top: 5px;
+}
+.container .header__photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 1px solid gray;
+}
+.container .about-me__title {
+  font: 16px "Roboto", sans-serif;
+  font-weight: 300;
+  color: gray;
+  text-align: center;
+}
+.container .about-me__description {
+  font: 24px "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: lightslategrey;
+}
+.container .about-me__btn-icons {
+  width: 250px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container .about-me__icon {
+  color: white;
+}
+.container .about-me__icon:hover {
+  cursor: pointer;
+  color: gray;
+}
+.container .studies, .container .experiences {
+  padding: 20px;
+  border-bottom: 1px dashed white;
+  background-image: url("../images/blob1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.container .studies__title, .container .experiences__title {
+  font: 24px "Tilt Neon", sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background: linear-gradient(to right, white, transparent);
+  color: gray;
+  margin-bottom: 20px;
+}
+.container .studies .profesion, .container .experiences .profesion {
+  margin-bottom: 15px;
+}
+.container .studies .profesion__name, .container .experiences .profesion__name {
+  margin: auto;
+  width: 245px;
+  text-align: center;
+  color: gray;
+  margin-bottom: 15px;
+}
+.container .studies .profesion__institute, .container .experiences .profesion__institute {
+  color: cadetblue;
+  text-transform: uppercase;
+}
+.container .studies .profesion__description, .container .experiences .profesion__description {
+  font: 14px "Roboto", sans-serif;
+  font-weight: 400;
+  color: gray;
+  margin-top: 5px;
+  text-align: justify;
+}
+.container .studies .profesion__year, .container .experiences .profesion__year {
+  color: gray;
+  text-align: end;
+}
+
+/*# sourceMappingURL=styles.css.map */
